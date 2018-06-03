@@ -1,1 +1,2 @@
-export { default as Tag } from "./Components/Tag";
+export { default as ColorPicker } from './Components/ColorPicker';
+export { default as Tag } from './Components/Tag';

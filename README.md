@@ -8,11 +8,14 @@ React Native UI Components :fire: :rocket: :star2:
 ## Getting Started
 ```
 npm i react-native-btr --save
+```
 or
+```
 yarn add react-native-btr
 ```
 
 ## Documentation
+- [ColorPicker](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/COLOR_PICKER.md)
 - [Tag](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/TAG.md)
 
 ## Contributing

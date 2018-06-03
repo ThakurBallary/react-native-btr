@@ -1,10 +1,12 @@
 # Tag
 
+###### Note: Please bear with the current documentation. Docs will be updated soon.
+
 Tags helps to find relevant information.
 
 ### Props
 Key | Type | Default
-----|----|---
+----|----|----
 name | string | Tag 
 style | object | {backgroundColor: '#000', color: '#fff', borderRadius: 4, borderWidth: 1} 
 iconLeft | string | - 
