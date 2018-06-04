@@ -16,6 +16,7 @@ yarn add react-native-btr
 
 ## Documentation
 - [CheckBox](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/CHECK_BOX.md)
+- [CollapsibleCard](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/COLLAPSIBLE_CARD.md)
 - [ColorPicker](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/COLOR_PICKER.md)
 - [Tag](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/TAG.md)
 
