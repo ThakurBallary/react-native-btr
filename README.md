@@ -15,9 +15,13 @@ yarn add react-native-btr
 ```
 
 ## Documentation
+- [BottomSheet](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/BOTTOM_SHEET.md)
 - [CheckBox](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/CHECK_BOX.md)
 - [CollapsibleCard](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/COLLAPSIBLE_CARD.md)
 - [ColorPicker](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/COLOR_PICKER.md)
+- [Divider](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/DIVIDER.md)
+- [IconPicker](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/ICON_PICKER.md)
+- [ModalInput](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/MODAL_INPUT.md)
 - [Tag](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/TAG.md)
 
 ## Contributing

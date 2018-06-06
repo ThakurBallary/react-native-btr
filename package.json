@@ -1,6 +1,6 @@
 {
   "name": "react-native-btr",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React Native UI Components",
   "main": "src/index.js",
   "scripts": {
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/thakurballary/react-native-btr/issues"
   },
-  "homepage": "https://github.com/thakurballary/react-native-btr#readme"
+  "homepage": "https://github.com/thakurballary/react-native-btr#readme",
+  "dependencies": {
+    "react-native-modal": "^6.1.0"
+  }
 }
