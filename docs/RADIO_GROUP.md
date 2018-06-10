@@ -1,4 +1,4 @@
-# RadioButton
+# RadioGroup
 
 ###### Note: Please bear with the current documentation. Docs will be updated soon.
 

@@ -21,7 +21,6 @@ import { RadioButton } from 'react-native-btr';
   color='#484'
   disabled={true}
   flexDirection='column'
-  onPress={}
   size={14}
 />
 
