@@ -35,7 +35,7 @@ state = {
 <RadioGroup 
   labelStyle={{fontSize: 14}}
   radioButtons={this.state.radioButtons}
-  onPress={}
+  onPress={radioButtons => this.setState({radioButtons})}
 />
 
 ``` 
