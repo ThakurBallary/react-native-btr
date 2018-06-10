@@ -22,6 +22,8 @@ yarn add react-native-btr
 - [Divider](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/DIVIDER.md)
 - [IconPicker](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/ICON_PICKER.md)
 - [ModalInput](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/MODAL_INPUT.md)
+- [RadioButton](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/RADIO_BUTTON.md)
+- [RadioGroup](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/RADIO_GROUP.md)
 - [Tag](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/TAG.md)
 
 ## Contributing

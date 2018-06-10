@@ -1,6 +1,6 @@
 {
   "name": "react-native-btr",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React Native UI Components",
   "main": "src/index.js",
   "scripts": {
@@ -11,12 +11,17 @@
     "url": "git+https://github.com/thakurballary/react-native-btr.git"
   },
   "keywords": [
-    "react-native-ui-components",
-    "react-native-ui-elements",
-    "react-native-radio-buttons",
+    "android",
+    "ios",
+    "react-native-bottomsheet",
+    "react-native-checkbox",
+    "react-native-collapsible-card",
     "react-native-color-picker",
+    "react-native-icon-picker",
+    "react-native-radio-buttons",
     "react-native-tags",
-    "react-native-components"
+    "react-native-ui-components",
+    "react-native-ui-elements"
   ],
   "author": "Thakur Ballary",
   "license": "MIT",
