@@ -19,11 +19,12 @@ yarn add react-native-btr
 - [CheckBox](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/CHECK_BOX.md)
 - [CollapsibleCard](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/COLLAPSIBLE_CARD.md)
 - [ColorPicker](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/COLOR_PICKER.md)
-- [Divider](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/DIVIDER.md)
 - [IconPicker](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/ICON_PICKER.md)
 - [ModalInput](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/MODAL_INPUT.md)
 - [RadioButton](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/RADIO_BUTTON.md)
 - [RadioGroup](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/RADIO_GROUP.md)
+- [Separator](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/SEPARATOR.md)
+- [SnackBar](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/SNACK_BAR.md)
 - [Tag](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/TAG.md)
 
 ## Contributing
