@@ -11,7 +11,7 @@ import {
 import PropTypes from 'prop-types';
 
 const ModalInput = props => (
-  <Modal animationType="fade" transparent={true} visible={true}>
+  <Modal animationType="fade" transparent={true} visible={true} onRequestClose={()=>null}>
     <View style={styles.container}>
       <View style={styles.card}>
         <ScrollView keyboardShouldPersistTaps="always">
