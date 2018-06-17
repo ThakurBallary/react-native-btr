@@ -1,6 +1,6 @@
 {
   "name": "react-native-btr",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "React Native UI Components",
   "main": "src/index.js",
   "scripts": {
@@ -17,8 +17,8 @@
     "react-native-checkbox",
     "react-native-collapsible-card",
     "react-native-color-picker",
-    "react-native-icon-picker",
     "react-native-radio-buttons",
+    "react-native-snackbar",
     "react-native-tags",
     "react-native-ui-components",
     "react-native-ui-elements"

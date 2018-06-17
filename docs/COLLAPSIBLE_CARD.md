@@ -21,7 +21,9 @@ import { CollapsibleCard } from 'react-native-btr';
     title='Categories'
     iconUp='chevron-up'
     iconDown='chevron-down'
-/>
+>
+    <Text>Content of CollapsibleCard</Text>
+</CollapsibleCard>
 
 <CollapsibleCard />
 ``` 
