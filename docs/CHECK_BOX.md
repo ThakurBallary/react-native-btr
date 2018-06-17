@@ -8,8 +8,9 @@ CheckBox helps you select item.
 Key | Type | Default
 ----|----|----
 checked | boolean | false 
-color | string | - 
-onPress | function | - 
+color | string | #000
+disabled | boolean | false
+onPress | function | () => null
 
 ### Usage
 ```
