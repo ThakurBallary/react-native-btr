@@ -7,10 +7,13 @@ CollapsibleCard is a card with HIDE & SHOW feature.
 ### Props
 Key | Type | Default
 ----|----|----
-visibleByDefault | boolean | false 
-title | string | - 
+visibleByDefault | boolean | false
+style | object |  
+title | string | 
+titleStyle | object |
 iconUp | string | chevron-up 
 iconDown | string | chevron-down 
+iconStyle | object |
 
 ### Usage
 ```
