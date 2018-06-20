@@ -9,20 +9,22 @@ class CollapsibleCard extends Component {
   };
 
   render() {
-    const icon = this.state.visible ? this.props.iconUp : this.props.iconDown;
+    const { children, iconUp, iconDown, style, title, titleStyle, iconStyle } = this.props;
+    const { visible } = this.state; 
+    const icon = this.state.visible ? iconUp : iconDown;
     return (
       <View style={styles.container}>
         <TouchableOpacity
-          style={styles.header}
-          onPress={() => this.setState({ visible: !this.state.visible })}>
-          <Text style={styles.title} numberOfLines={1} ellipseMode="tail">
-            {this.props.title}
+          style={[styles.header, style]}
+          onPress={() => this.setState({ visible: !visible })}>
+          <Text style={[styles.title, titleStyle]} numberOfLines={1} ellipseMode="tail">
+            {title}
           </Text>
-          <Icon name={icon} style={styles.icon} />
+          <Icon name={icon} style={[styles.icon, iconStyle]} />
         </TouchableOpacity>
-        {this.state.visible &&
+        {visible &&
           <View style={styles.body}>
-            {this.props.children}
+            {children}
           </View>}
       </View>
     );
@@ -50,9 +52,12 @@ const styles = StyleSheet.create({
 
 CollapsibleCard.propTypes = {
   visibleByDefault: PropTypes.bool,
+  style: PropTypes.object,
   title: PropTypes.string,
+  titleStyle: PropTypes.object,
   iconUp: PropTypes.string,
   iconDown: PropTypes.string,
+  iconStyle: PropTypes.object,
 };
 
 CollapsibleCard.defaultProps = {
