@@ -10,6 +10,7 @@ Key | Type | Default
 labelStyle | object | {}
 radioButtons | array | []
 onPress | function | () => null
+style | object |
 
 ### Usage
 ```
@@ -37,5 +38,8 @@ state = {
   radioButtons={this.state.radioButtons}
   onPress={radioButtons => this.setState({radioButtons})}
 />
+
+###### See RadioButtons in action
+:heart: [Live on Expo](https://expo.io/@thakurballary/react-native-btr-demo) :iphone:
 
 ``` 

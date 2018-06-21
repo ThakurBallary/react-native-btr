@@ -11,13 +11,18 @@ class RadioGroup extends Component {
 
   onPress = label => {
     const radioButtons = this.state.radioButtons;
-    radioButtons.find(e => e.checked).checked = false;
+    const currentActive = radioButtons.find(e => e.checked)
+    currentActive ? currentActive.checked = false : null;
     radioButtons.find(e => e.label === label).checked = true;
     this.setState({ radioButtons });
     this.props.onPress(this.state.radioButtons)
   };
 
   render() {
+    const { labelStyle, style } = this.props;
+    let horizontal = false;
+    if (style && style.flexDirection === 'row')
+      horizontal = true;
     return (
       <FlatList
         data={this.state.radioButtons}
@@ -33,13 +38,15 @@ class RadioGroup extends Component {
             <Text
               style={[
                 { margin: 10, color: item.color },
-                this.props.labelStyle,
+                labelStyle,
               ]}>
               {item.label}
             </Text>
           </RadioButton>
         )}
         keyExtractor={(item, index) => 'key' + item.label + index}
+        horizontal={horizontal}
+        style={style}
       />
     );
   }
@@ -49,6 +56,7 @@ RadioGroup.propTypes = {
   labelStyle: PropTypes.object,
   onPress: PropTypes.func,
   radioButtons: PropTypes.array,
+  style: PropTypes.object
 }
 
 RadioGroup.defaultProps = {
