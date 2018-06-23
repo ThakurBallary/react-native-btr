@@ -12,22 +12,31 @@ class SnackBar extends Component {
       toValue: 0,
       duration: 500,
     }).start();
-    setTimeout(() => {
-      Animated.timing(this.state.yPosition, {
-        toValue: -500,
-        duration: 500,
-      }).start();
-    }, this.props.duration);
+    const { duration } = this.props;
+    if(duration > 0)
+      setTimeout(() => this.close(), duration);
+  }
+
+  close = () => {
+    Animated.timing(this.state.yPosition, {
+      toValue: -500,
+      duration: 500,
+    }).start();
+  }
+
+  onPress = () => {
+    this.props.onPress();
+    this.close();
   }
 
   render() {
     return (
       <Animated.View
         style={[styles.container, { bottom: this.state.yPosition }]}>
-        <Text style={this.props.textStyle}>
+        <Text numberOfLines={1} style={this.props.textStyle}>
           {this.props.text}
         </Text>
-        <Text onPress={this.props.onPress} style={this.props.actionTextStyle}>
+        <Text onPress={this.onPress} style={[{paddingHorizontal: 8}, this.props.actionTextStyle]}>
           {this.props.actionText}
         </Text>
       </Animated.View>
@@ -47,12 +56,25 @@ const styles = StyleSheet.create({
 
 SnackBar.propTypes = {
   actionText: PropTypes.string,
-  actionTextStyle: PropTypes.object,
+  actionTextStyle: PropTypes.oneOfType([
+    PropTypes.object,
+    PropTypes.number,
+    PropTypes.array
+  ]),
   duration: PropTypes.number,
   onPress: PropTypes.func,
-  style: PropTypes.object,
+  style: PropTypes.oneOfType([
+    PropTypes.object,
+    PropTypes.number,
+    PropTypes.array
+  ]),
   text: PropTypes.string,
-  textStyle: PropTypes.object,
+  textStyle: PropTypes.oneOfType([
+    PropTypes.object,
+    PropTypes.number,
+    PropTypes.array
+  ]),
+
 };
 
 SnackBar.defaultProps = {

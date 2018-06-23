@@ -2,6 +2,8 @@
 
 ###### Note: Please bear with the current documentation. Docs will be updated soon.
 
+Pass duration={0} to close SnackBar onPress of action. 
+
 ### Props
 Key | Type | Default
 ----|----|----

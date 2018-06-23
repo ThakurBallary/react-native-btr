@@ -34,9 +34,9 @@ const RadioButton = props => {
 )};
 
 RadioButton.propTypes = {
-  checked: PropTypes.bool,
+  checked: PropTypes.oneOfType([PropTypes.bool, PropTypes.number]),
   color: PropTypes.string,
-  disabled: PropTypes.bool,
+  disabled: PropTypes.oneOfType([PropTypes.bool, PropTypes.number]),
   flexDirection: PropTypes.string,
   onPress: PropTypes.func,
   size: PropTypes.number,

@@ -36,7 +36,11 @@ Tag.propTypes = {
   name: PropTypes.string,
   iconLeft: PropTypes.string,
   iconRight: PropTypes.string,
-  style: PropTypes.object,
+  style: PropTypes.oneOfType([
+    PropTypes.object,
+    PropTypes.number,
+    PropTypes.array
+  ]),
   onPress: PropTypes.func,
 };
 

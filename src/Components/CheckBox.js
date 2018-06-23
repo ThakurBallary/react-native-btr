@@ -31,9 +31,9 @@ const CheckBox = props => {
 };
 
 CheckBox.propTypes = {
-    checked: PropTypes.bool,
+    checked: PropTypes.oneOfType([PropTypes.bool, PropTypes.number]),
     color: PropTypes.string,
-    disabled: PropTypes.bool,
+    disabled: PropTypes.oneOfType([PropTypes.bool, PropTypes.number]),
     onPress: PropTypes.func,
 };
 

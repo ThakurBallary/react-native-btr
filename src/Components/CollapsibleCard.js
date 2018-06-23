@@ -51,13 +51,25 @@ const styles = StyleSheet.create({
 });
 
 CollapsibleCard.propTypes = {
-  visibleByDefault: PropTypes.bool,
-  style: PropTypes.object,
+  visibleByDefault: PropTypes.oneOfType([PropTypes.bool, PropTypes.number]),
+  style: PropTypes.oneOfType([
+    PropTypes.object,
+    PropTypes.number,
+    PropTypes.array
+  ]),
   title: PropTypes.string,
-  titleStyle: PropTypes.object,
+  titleStyle: PropTypes.oneOfType([
+    PropTypes.object,
+    PropTypes.number,
+    PropTypes.array
+  ]),
   iconUp: PropTypes.string,
   iconDown: PropTypes.string,
-  iconStyle: PropTypes.object,
+  iconStyle: PropTypes.oneOfType([
+    PropTypes.object,
+    PropTypes.number,
+    PropTypes.array
+  ]),
 };
 
 CollapsibleCard.defaultProps = {

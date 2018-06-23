@@ -53,10 +53,18 @@ class RadioGroup extends Component {
 }
 
 RadioGroup.propTypes = {
-  labelStyle: PropTypes.object,
+  labelStyle: PropTypes.oneOfType([
+    PropTypes.object,
+    PropTypes.number,
+    PropTypes.array
+  ]),
   onPress: PropTypes.func,
   radioButtons: PropTypes.array,
-  style: PropTypes.object
+  style: PropTypes.oneOfType([
+    PropTypes.object,
+    PropTypes.number,
+    PropTypes.array
+  ])
 }
 
 RadioGroup.defaultProps = {
