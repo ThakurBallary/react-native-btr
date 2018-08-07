@@ -19,7 +19,7 @@ class RadioGroup extends Component {
   };
 
   render() {
-    const { labelStyle, style } = this.props;
+    const { color, labelStyle, style } = this.props;
     let horizontal = false;
     if (style && style.flexDirection === 'row')
       horizontal = true;
@@ -30,7 +30,7 @@ class RadioGroup extends Component {
         renderItem={({ item }) => (
           <RadioButton
             checked={item.checked}
-            color={item.color}
+            color={color ? color : item.color}
             disabled={item.disabled}
             flexDirection={item.flexDirection}
             onPress={() => this.onPress(item.label)}
@@ -58,6 +58,7 @@ RadioGroup.propTypes = {
     PropTypes.number,
     PropTypes.array
   ]),
+  color: PropTypes.string,
   onPress: PropTypes.func,
   radioButtons: PropTypes.array,
   style: PropTypes.oneOfType([
