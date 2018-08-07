@@ -7,6 +7,7 @@ Selects only one value out of multiple RadioButtons.
 ### Props
 Key | Type | Default
 ----|----|----
+color | string | 
 labelStyle | object | {}
 radioButtons | array | []
 onPress | function | () => null
@@ -34,6 +35,7 @@ state = {
 }
 
 <RadioGroup 
+  color='#484'
   labelStyle={{fontSize: 14}}
   radioButtons={this.state.radioButtons}
   onPress={radioButtons => this.setState({radioButtons})}
