@@ -17,6 +17,8 @@ or
 yarn add react-native-btr
 ```
 
+**Note** : This package only works with Expo projects.
+
 ## Documentation
 - [BottomSheet](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/BOTTOM_SHEET.md)
 - [CheckBox](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/CHECK_BOX.md)
