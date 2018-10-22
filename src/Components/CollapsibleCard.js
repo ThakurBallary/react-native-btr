@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Text, TouchableOpacity, View, StyleSheet } from 'react-native';
 import PropTypes from 'prop-types';
-import { MaterialCommunityIcons as Icon } from '@expo/vector-icons';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 
 class CollapsibleCard extends Component {
   state = {
