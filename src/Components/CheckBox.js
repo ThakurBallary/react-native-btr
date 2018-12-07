@@ -1,7 +1,7 @@
 import React from 'react';
 import { TouchableOpacity } from 'react-native';
 import PropTypes from 'prop-types';
-import { MaterialCommunityIcons as Icon } from '@expo/vector-icons';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 
 const CheckBox = props => {
     let backgroundColor, color = '#0000';
