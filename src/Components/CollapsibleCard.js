@@ -17,7 +17,7 @@ class CollapsibleCard extends Component {
         <TouchableOpacity
           style={[styles.header, style]}
           onPress={() => this.setState({ visible: !visible })}>
-          <Text style={[styles.title, titleStyle]} numberOfLines={1} ellipseMode="tail">
+          <Text style={[styles.title, titleStyle]} numberOfLines={1} >
             {title}
           </Text>
           <Icon name={icon} style={[styles.icon, iconStyle]} />
@@ -74,8 +74,8 @@ CollapsibleCard.propTypes = {
 
 CollapsibleCard.defaultProps = {
   visibleByDefault: false,
-  iconUp: 'chevron-up',
-  iconDown: 'chevron-down',
+  iconUp: 'expand-less',
+  iconDown: 'expand-more',
 };
 
 export default CollapsibleCard;

@@ -32,8 +32,8 @@ IconPicker.propTypes = {
 };
 
 IconPicker.defaultProps = {
-  icons: ['account', 'account-multiple', 'airplane', 'alarm', 'alert-circle', 'apps', 'attachment', 'auto-fix', 'autorenew', 'briefcase', 'check', 'close', 'currency-usd', 'food-fork-drink', 'google-analytics', 'help-circle', 'layers', 'library', 'pencil', 'star', 'subway-variant', 'white-balance-incandescent'],
-  selectedIcon: 'account',
+  icons: ['account-circle', 'alarm', 'apps', 'attachment', 'autorenew', 'check', 'close', 'layers', 'star'],
+  selectedIcon: 'account-circle',
   onSelect: selectedColor => alert(selectedColor),
 };
 
