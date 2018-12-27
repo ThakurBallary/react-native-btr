@@ -12,12 +12,12 @@ const CheckBox = props => {
     let onPress = props.onPress;
     let opacity = 1;
     if (props.disabled) {
-        onPress = () => null;
         opacity = .4;
     }
     return (
         <TouchableOpacity
             onPress={onPress}
+            disabled={props.disabled}
             style={{
                 backgroundColor,
                 borderColor: props.color,
