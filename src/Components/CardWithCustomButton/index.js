@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Text, TouchableOpacity, View, StyleSheet,FlatList } from 'react-native';
 import { MaterialCommunityIcons as Icon } from '@expo/vector-icons';
 import  {WithLableAndAddButton } from './WithLabelAndAddButton';
+import PropTypes from 'prop-types';
+
 class CardWithCustomButton extends Component {
   constructor(props){
     super(props)
@@ -13,7 +15,6 @@ class CardWithCustomButton extends Component {
 keyExtractor=(item,index)=>index.toString();
   render() {
     let {
-      children,
       iconUp,
       iconDown,
       style,
@@ -79,6 +80,13 @@ const styles = StyleSheet.create({
 
 });
 
+CardWithCustomButton.propTypes = {
+  flatListData:PropTypes.array,
+  buttonFunction: PropTypes.func,
+  title: PropTypes.string,
+  iconUp: PropTypes.string,
+  iconDown: PropTypes.string,
+}
 
 CardWithCustomButton.defaultProps = {
   visibleByDefault: false,

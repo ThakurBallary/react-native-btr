@@ -2,7 +2,7 @@ import React from 'react';
 import {
   Text,
   View,
- TouchableHighlight
+  TouchableOpacity
 } from 'react-native';
 import { MaterialCommunityIcons as Icon } from '@expo/vector-icons';
 
@@ -17,7 +17,7 @@ export const WithLableAndAddButton = (props) => {
         }}>
         <Text style={{paddingVertical:4}}>{props.Title}</Text>
         {props.showButton?
-        <TouchableHighlight onPress={props.buttonFunction}>
+        <TouchableOpacity onPress={props.buttonFunction}>
           <View
             style={{
               borderRadius: 50,
@@ -29,7 +29,7 @@ export const WithLableAndAddButton = (props) => {
             <Icon name={props.ButtonIcon}color="#fff" size={18} />
             <Text style={{ color: '#fff' }}>{props.ButtonName}</Text>
           </View>
-        </TouchableHighlight>:null
+        </TouchableOpacity>:null
         }
       </View>
     </View>
@@ -41,6 +41,6 @@ WithLableAndAddButton.defaultProps={
   Title:"CardTitle",
   showButton:true,
   buttonFunction:()=>{},
-  ButtonName:"Add",
+  ButtonName:"plus-circle-outline",
   ButtonIcon:"plus"
 }
