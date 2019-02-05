@@ -41,6 +41,6 @@ WithLableAndAddButton.defaultProps={
   Title:"CardTitle",
   showButton:true,
   buttonFunction:()=>{},
-  ButtonName:"plus-circle-outline",
-  ButtonIcon:"plus"
+  ButtonName:"Add",
+  ButtonIcon:"plus-circle-outline"
 }
