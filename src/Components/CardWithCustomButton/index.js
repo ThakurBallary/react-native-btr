@@ -25,7 +25,9 @@ keyExtractor=(item,index)=>index.toString();
       flatListData,
       renderItem,
       separator,
-      minDisplay,showButton,bgcolor
+      minDisplay,
+      showButton,
+      bgcolor
     } = this.props;
     const flatList_Data=((flatListData.length>=minDisplay)&&this.state.visible)?flatListData.slice(0,minDisplay):flatListData
     const { visible } = this.state;
