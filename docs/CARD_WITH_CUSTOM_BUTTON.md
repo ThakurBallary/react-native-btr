@@ -21,7 +21,6 @@ minDisplay | number | 3
 showButton | boolean | true
 buttonColor | string | -
 
-
 ### Usage
 ```
 import { CardWithCustomButton, Separator } from 'react-native-btr';
