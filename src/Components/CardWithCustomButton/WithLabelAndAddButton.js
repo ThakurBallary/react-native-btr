@@ -1,10 +1,6 @@
 import React from 'react';
-import {
-  Text,
-  View,
-  TouchableOpacity
-} from 'react-native';
-import { MaterialCommunityIcons as Icon } from '@expo/vector-icons';
+import { Text, View, TouchableOpacity } from 'react-native';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 
 export const WithLableAndAddButton = (props) => {
   return (
@@ -35,7 +31,6 @@ export const WithLableAndAddButton = (props) => {
     </View>
   );
 };
-
 
 WithLableAndAddButton.defaultProps={
   Title:"CardTitle",

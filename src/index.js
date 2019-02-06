@@ -1,4 +1,5 @@
 export { default as BottomSheet } from './Components/BottomSheet';
+export { default as CardWithCustomButton } from './Components/CardWithCustomButton';
 export { default as CheckBox } from './Components/CheckBox';
 export { default as CollapsibleCard } from './Components/CollapsibleCard';
 export { default as ColorPicker } from './Components/ColorPicker';

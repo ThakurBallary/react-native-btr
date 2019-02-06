@@ -19,6 +19,7 @@ yarn add react-native-btr
 
 ## Documentation
 - [BottomSheet](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/BOTTOM_SHEET.md)
+- [CardWithCustomButton](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/CARD_WITH_CUSTOM_BUTTON.md)
 - [CheckBox](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/CHECK_BOX.md)
 - [CollapsibleCard](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/COLLAPSIBLE_CARD.md)
 - [ColorPicker](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/COLOR_PICKER.md)
