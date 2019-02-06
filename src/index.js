@@ -10,4 +10,3 @@ export { default as RadioGroup } from './Components/RadioGroup';
 export { default as Separator } from './Components/Separator';
 export { default as SnackBar } from './Components/SnackBar';
 export { default as Tag } from './Components/Tag';
-export { default as CardWithCustomButton} from './Components/CardWithCustomButton';
