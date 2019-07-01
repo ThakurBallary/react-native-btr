@@ -7,31 +7,34 @@ const RadioButton = props => {
   let opacity = 1;
   if (props.disabled) {
     onPress = null;
-    opacity = .2;
+    opacity = 0.2;
   }
   return (
-  <TouchableOpacity
-    onPress={onPress}
-    style={{alignItems: 'center', flexDirection: props.flexDirection}}>
-    <View
-    style={{
-      borderColor: props.color,
-      borderRadius: props.size * 2,
-      borderWidth: 2,
-      opacity
-    }}>
-    <View
-      style={{
-        backgroundColor: props.checked ? props.color : '#0000',
-        borderRadius: props.size,
-        padding: props.size,
-        margin: props.size * .2,
-      }}
-    />
-    </View>
+    <TouchableOpacity
+      onPress={onPress}
+      style={{ alignItems: 'center', flexDirection: props.flexDirection }}
+    >
+      <View
+        style={{
+          borderColor: props.color,
+          borderRadius: props.size * 2,
+          borderWidth: props.customBorderWidth,
+          opacity
+        }}
+      >
+        <View
+          style={{
+            backgroundColor: props.checked ? props.color : '#0000',
+            borderRadius: props.size,
+            padding: props.size,
+            margin: props.size * 0.2
+          }}
+        />
+      </View>
       {props.children}
-  </TouchableOpacity>
-)};
+    </TouchableOpacity>
+  );
+};
 
 RadioButton.propTypes = {
   checked: PropTypes.oneOfType([PropTypes.bool, PropTypes.number]),
@@ -40,6 +43,7 @@ RadioButton.propTypes = {
   flexDirection: PropTypes.string,
   onPress: PropTypes.func,
   size: PropTypes.number,
+  customBorderWidth: PropTypes.number
 };
 
 RadioButton.defaultProps = {
@@ -48,7 +52,7 @@ RadioButton.defaultProps = {
   disabled: false,
   flexDirection: 'row',
   onPress: () => null,
-  size: 8,
+  size: 8
 };
 
 export default RadioButton;
