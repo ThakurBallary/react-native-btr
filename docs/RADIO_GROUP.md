@@ -10,6 +10,7 @@ Key | Type | Default
 color | string | 
 labelStyle | object | {}
 radioButtons | array | []
+radioButtonBorderWidth | number | 2
 onPress | function | () => null
 style | object |
 
