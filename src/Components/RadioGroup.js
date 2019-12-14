@@ -19,7 +19,7 @@ class RadioGroup extends Component {
   };
 
   render() {
-    const { color, labelStyle, style, customBorderWidth } = this.props;
+    const { color, labelStyle, style, radioButtonBorderWidth } = this.props;
     let horizontal = false;
     if (style && style.flexDirection === 'row') horizontal = true;
     return (
@@ -28,7 +28,7 @@ class RadioGroup extends Component {
         extraData={this.state}
         renderItem={({ item }) => (
           <RadioButton
-            customBorderWidth={customBorderWidth}
+            borderWidth={radioButtonBorderWidth}
             checked={item.checked}
             color={color ? color : item.color}
             disabled={item.disabled}
@@ -58,7 +58,7 @@ RadioGroup.propTypes = {
   color: PropTypes.string,
   onPress: PropTypes.func,
   radioButtons: PropTypes.array,
-  customBorderWidth: PropTypes.number,
+  radioButtonBorderWidth: PropTypes.number,
   style: PropTypes.oneOfType([
     PropTypes.object,
     PropTypes.number,
@@ -70,7 +70,7 @@ RadioGroup.defaultProps = {
   labelStyle: {},
   onPress: () => null,
   radioButtons: [],
-  customBorderWidth: 2
+  radioButtonBorderWidth: 2
 };
 
 export default RadioGroup;

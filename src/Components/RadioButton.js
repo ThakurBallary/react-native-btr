@@ -18,7 +18,7 @@ const RadioButton = props => {
         style={{
           borderColor: props.color,
           borderRadius: props.size * 2,
-          borderWidth: props.customBorderWidth,
+          borderWidth: props.borderWidth,
           opacity
         }}
       >
@@ -37,16 +37,17 @@ const RadioButton = props => {
 };
 
 RadioButton.propTypes = {
+  borderWidth: PropTypes.number,
   checked: PropTypes.oneOfType([PropTypes.bool, PropTypes.number]),
   color: PropTypes.string,
   disabled: PropTypes.oneOfType([PropTypes.bool, PropTypes.number]),
   flexDirection: PropTypes.string,
   onPress: PropTypes.func,
-  size: PropTypes.number,
-  customBorderWidth: PropTypes.number
+  size: PropTypes.number
 };
 
 RadioButton.defaultProps = {
+  borderWidth: 2,
   checked: false,
   color: '#000',
   disabled: false,
