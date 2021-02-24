@@ -1,7 +1,7 @@
 # REACT NATIVE BTR
 React Native UI Components :fire: :rocket: :star2:
 
-![npm](https://img.shields.io/npm/v/react-native-radio-buttons-group) ![LICENSE MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)
+![npm](https://img.shields.io/npm/v/react-native-btr) ![LICENSE MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)
 
 [![NPM](https://nodei.co/npm/react-native-btr.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-btr/)
 
