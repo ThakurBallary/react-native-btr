@@ -5,6 +5,8 @@ React Native UI Components :fire: :rocket: :star2:
 
 [![NPM](https://nodei.co/npm/react-native-btr.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-btr/)
 
+###### Note: Next release is scheduled at last week of March 2021
+
 ## Demo
 :heart: [Live on Expo](https://expo.io/@thakurballary/react-native-btr-demo) :iphone:
 
