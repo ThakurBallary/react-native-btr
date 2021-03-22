@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/thakurballary/react-native-btr#readme",
   "dependencies": {
-    "react-native-modal": "^11.5.3",
-    "react-native-vector-icons": "^6.6.0"
+    "react-native-modal": "^11.7.0",
+    "react-native-vector-icons": "^8.1.0"
   }
 }
