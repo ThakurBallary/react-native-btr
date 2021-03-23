@@ -1,8 +1,8 @@
 # ModalInput
 
-###### Note: Please bear with the current documentation. Docs will be updated soon.
-
 Modal with CANCEL and OK buttons
+
+[Example](https://github.com/ThakurBallary/react-native-btr-demo/tree/main/src/Components)
 
 ### Props
 Key | Type | Default

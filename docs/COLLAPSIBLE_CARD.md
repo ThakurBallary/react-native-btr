@@ -1,32 +1,16 @@
 # CollapsibleCard
 
-###### Note: Please bear with the current documentation. Docs will be updated soon.
-
 CollapsibleCard is a card with HIDE & SHOW feature.
+
+[Example](https://github.com/ThakurBallary/react-native-btr-demo/tree/main/src/Components)
 
 ### Props
 Key | Type | Default
 ----|----|----
-visibleByDefault | boolean | false
+visible | boolean | false
 style | object |  
 title | string | 
 titleStyle | object |
-iconUp | string | chevron-up 
-iconDown | string | chevron-down 
+iconUp | string | expand-less 
+iconDown | string | expand-more 
 iconStyle | object |
-
-### Usage
-```
-import { CollapsibleCard } from 'react-native-btr';
-
-<CollapsibleCard 
-    visibleByDefault={false}
-    title='Categories'
-    iconUp='chevron-up'
-    iconDown='chevron-down'
->
-    <Text>Content of CollapsibleCard</Text>
-</CollapsibleCard>
-
-<CollapsibleCard />
-``` 
