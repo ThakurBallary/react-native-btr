@@ -8,10 +8,10 @@ export type TagProps = {
   name?: string;
   onPress?: () => void;
   style?: {
-    backgroundColor: string;
-    color: string;
-    borderRadius: number;
-    borderWidth: number;
+    backgroundColor?: string;
+    color?: string;
+    borderRadius?: number;
+    borderWidth?: number;
   };
 };
 
