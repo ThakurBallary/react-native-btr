@@ -2,7 +2,7 @@
 
 CollapsibleCard is a card with HIDE & SHOW feature.
 
-[Example](https://github.com/ThakurBallary/react-native-btr-demo/tree/main/src/Components)
+[Example](https://github.com/ThakurBallary/react-native-btr-demo/tree/main/src/Components/CollapsibleCard.tsx)
 
 ### Props
 Key | Type | Default
