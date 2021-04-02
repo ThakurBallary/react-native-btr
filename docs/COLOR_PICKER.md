@@ -2,7 +2,7 @@
 
 Horizontally scrollable circles with collors filled.
 
-[Example](https://github.com/ThakurBallary/react-native-btr-demo/tree/main/src/Components)
+[Example](https://github.com/ThakurBallary/react-native-btr-demo/tree/main/src/Components/ColorPicker.tsx)
 
 ### Props
 Key | Type | Default
