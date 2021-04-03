@@ -2,7 +2,7 @@
 
 Horizontally scrollable icons.
 
-[Example](https://github.com/ThakurBallary/react-native-btr-demo/tree/main/src/Components)
+[Example](https://github.com/ThakurBallary/react-native-btr-demo/tree/main/src/Components/IconPicker.tsx)
 
 ### Props
 Key | Type | Default
