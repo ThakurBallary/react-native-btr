@@ -2,7 +2,7 @@
 
 Modal with CANCEL and OK buttons
 
-[Example](https://github.com/ThakurBallary/react-native-btr-demo/tree/main/src/Components)
+[Example](https://github.com/ThakurBallary/react-native-btr-demo/tree/main/src/Components/ModalInput.tsx)
 
 ### Props
 Key | Type | Default
