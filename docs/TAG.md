@@ -2,7 +2,7 @@
 
 Tags helps to find relevant information.
 
-[Example](https://github.com/ThakurBallary/react-native-btr-demo/tree/main/src/Components)
+[Example](https://github.com/ThakurBallary/react-native-btr-demo/tree/main/src/Components/Tag.tsx)
 
 ### Props
 Key | Type | Default
