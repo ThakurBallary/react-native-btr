@@ -28,8 +28,5 @@ yarn add react-native-btr
 - [Separator](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/SEPARATOR.md)
 - [Tag](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/TAG.md)
 
-## Contributing
-Please create a pull request
-
 ## License
 React Native BTR is [MIT Licensed](https://github.com/ThakurBallary/react-native-btr/blob/master/LICENSE)
