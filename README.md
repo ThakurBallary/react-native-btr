@@ -29,4 +29,4 @@ yarn add react-native-btr
 - [Tag](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/TAG.md)
 
 ## License
-React Native BTR is [MIT Licensed](https://github.com/ThakurBallary/react-native-btr/blob/master/LICENSE)
+[MIT Licensed](https://github.com/ThakurBallary/react-native-btr/blob/master/LICENSE)
