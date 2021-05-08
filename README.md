@@ -26,7 +26,7 @@ yarn add react-native-btr
 - [ModalInput](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/MODAL_INPUT.md)
 - [RadioGroup](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/RADIO_GROUP.md)
 - [Separator](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/SEPARATOR.md)
-- [Tag](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/TAG.md)
+- [Tag](https://github.com/ThakurBallary/react-native-btr/blob/master/docs/)
 
 ## License
 [MIT Licensed](https://github.com/ThakurBallary/react-native-btr/blob/master/LICENSE)
