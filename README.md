@@ -30,3 +30,5 @@ yarn add react-native-btr
 
 ## License
 [MIT Licensed](https://github.com/ThakurBallary/react-native-btr/blob/master/LICENSE)
+
+TD
