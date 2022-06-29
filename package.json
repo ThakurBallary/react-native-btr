@@ -1,6 +1,6 @@
 {
   "name": "react-native-btr",
-  "version": "2.1.3",
+  "version": "2.2.0",
   "description": "React Native UI Components",
   "main": "src/index.ts",
   "scripts": {
@@ -30,8 +30,8 @@
   },
   "homepage": "https://github.com/thakurballary/react-native-btr#readme",
   "dependencies": {
-    "react-native-modal": "^11.7.0",
-    "react-native-radio-buttons-group": "^2.2.1",
-    "react-native-vector-icons": "^9.1.0"
+    "react-native-modal": "^13.0.1",
+    "react-native-radio-buttons-group": "^2.2.11",
+    "react-native-vector-icons": "^9.2.0"
   }
 }
