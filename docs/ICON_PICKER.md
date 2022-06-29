@@ -7,6 +7,6 @@ Horizontally scrollable icons.
 ### Props
 Key | Type | Default
 ----|----|----
-icons | array | ['account', 'account-multiple', 'airplane', 'alarm', 'alert-circle', 'apps', 'attachment', 'auto-fix', 'autorenew', 'briefcase', 'check', 'close', 'currency-usd', 'food-fork-drink', 'google-analytics', 'help-circle', 'layers', 'library', 'pencil', 'star', 'subway-variant', 'white-balance-incandescent'],
-selectedIcon | string | 'account'
+icons | array | [{ type: 'FontAwesome', name: 'comments' },{ type: 'FontAwesome', name: 'font' },{ type: 'FontAwesome', name: 'font-awesome' },{ type: 'FontAwesome', name: 'rocket' },{ type: 'MaterialCommunityIcons', name: 'account-circle' },{ type: 'MaterialCommunityIcons', name: 'alarm' },{ type: 'MaterialCommunityIcons', name: 'apps' },{ type: 'MaterialCommunityIcons', name: 'attachment' },{ type: 'MaterialCommunityIcons', name: 'autorenew' },{ type: 'MaterialCommunityIcons', name: 'check' },{ type: 'MaterialCommunityIcons', name: 'close' },{ type: 'MaterialCommunityIcons', name: 'layers' },{ type: 'MaterialCommunityIcons', name: 'star' }]
+selectedIcon | { type?: string, name: string } | { type: 'FontAwesome', name: 'comments' }
 onSelect | function | selectedIcon => alert(selectedIcon) 
