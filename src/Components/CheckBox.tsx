@@ -6,6 +6,8 @@ export type CheckBoxProps = {
   checked?: boolean;
   color?: string;
   disabled?: boolean;
+  borderRadius?: number;
+  borderWidth?: number;
   onPress?: () => void;
 };
 
@@ -13,6 +15,8 @@ export function CheckBox({
   checked = false,
   color = "#000",
   disabled = false,
+  borderRadius = 1,
+  borderWidth = 2,
   onPress = () => {},
 }: CheckBoxProps) {
   let backgroundColor,
@@ -32,8 +36,8 @@ export function CheckBox({
       style={{
         backgroundColor,
         borderColor: color,
-        borderRadius: 1,
-        borderWidth: 2,
+        borderRadius,
+        borderWidth,
         opacity,
       }}
     >
