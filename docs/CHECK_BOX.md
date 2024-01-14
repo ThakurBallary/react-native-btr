@@ -7,6 +7,8 @@ CheckBox helps you select item.
 ### Props
 Key | Type | Default
 ----|----|----
+borderRadius | number | 1
+borderWith | number | 2
 checked | boolean | false 
 color | string | #000
 disabled | boolean | false
