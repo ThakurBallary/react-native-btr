@@ -8,7 +8,7 @@ CheckBox helps you select item.
 Key | Type | Default
 ----|----|----
 borderRadius | number | 1
-borderWith | number | 2
+borderWidth | number | 2
 checked | boolean | false 
 color | string | #000
 disabled | boolean | false
