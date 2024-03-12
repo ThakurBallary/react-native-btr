@@ -6,7 +6,7 @@ React Native UI Components :fire: :rocket: :star2:
 [![NPM](https://nodei.co/npm/react-native-btr.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-btr/)
 
 ## Demo
-:heart: [Open using Expo Go](https://expo.io/@thakurballary/react-native-btr-demo) :iphone:
+[![Google Play Store](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png?w=10)](https://play.google.com/store/apps/details?id=com.thakurballary.reactnativebtrdemo)
 
 ## Getting Started
 ```
