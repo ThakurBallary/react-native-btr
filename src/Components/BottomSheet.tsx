@@ -8,7 +8,7 @@ export type BottomSheetProps = {
 };
 
 type Props = {
-  children: React.ReactChild | React.ReactChild[];
+  children: React.ReactNode | React.ReactElement[];
 } & BottomSheetProps;
 
 export function BottomSheet({
